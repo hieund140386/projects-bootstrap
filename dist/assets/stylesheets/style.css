@@ -1,0 +1,153 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+header div:first-child {
+  background-color: #ff4f81 !important;
+}
+header div:first-child div:nth-child(2) i:hover {
+  background-color: #ff4f81 !important;
+  border: 1px solid white !important;
+  cursor: pointer;
+}
+header .own-style a h1 {
+  font-size: 2.25rem;
+  margin-bottom: -0.5rem;
+}
+header .own-style a span {
+  letter-spacing: 0.2rem;
+  font-size: 0.6875rem;
+  color: #ff4f81;
+}
+header .own-style .navbar-own-style .navbar-nav .active .nav-link {
+  color: #ff4f81 !important;
+}
+header .own-style .navbar-own-style .navbar-nav .active .nav-link::before {
+  width: 100%;
+}
+header .own-style .navbar-own-style .navbar-nav .nav-item {
+  letter-spacing: 0.1rem;
+  font-size: 0.875rem;
+}
+header .own-style .navbar-own-style .navbar-nav .nav-item .nav-link {
+  position: relative;
+}
+header .own-style .navbar-own-style .navbar-nav .nav-item .nav-link::before {
+  content: "";
+  position: absolute;
+  display: block;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background-color: #ff4f81;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+header .own-style .navbar-own-style .navbar-nav .nav-item .nav-link:hover {
+  color: #ff4f81 !important;
+}
+header .own-style .navbar-own-style .navbar-nav .nav-item .nav-link:hover::before {
+  width: 100%;
+}
+header .own-style .navbar-own-style .navbar-nav .nav-item:nth-child(5) .dropdown-menu {
+  background-color: #000000b3;
+}
+header .own-style .navbar-own-style .navbar-nav .nav-item:nth-child(5) .dropdown-menu .dropdown-item {
+  letter-spacing: initial;
+}
+header .own-style .navbar-own-style .navbar-nav .nav-item:nth-child(5) .dropdown-menu .dropdown-item:hover {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  color: #ff4f81 !important;
+  background-color: transparent;
+}
+header .own-style .navbar-own-style .navbar-nav .nav-item:nth-child(5) .dropdown-menu .dropdown-item:hover::before {
+  height: 0;
+  width: 0;
+}
+
+/* Carousel Caption Index */
+#carouselCaptionIndex .carousel-indicators {
+  bottom: 50px;
+}
+#carouselCaptionIndex .carousel-indicators li.active {
+  background-color: white;
+}
+#carouselCaptionIndex .carousel-indicators li {
+  width: 0.625rem;
+  height: 0.625rem;
+  border-radius: 50%;
+  border: 1px solid white;
+  background-color: transparent;
+}
+#carouselCaptionIndex .carousel-inner .carousel-item .carousel-caption {
+  top: 50%;
+  bottom: initial;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+#carouselCaptionIndex .carousel-inner .carousel-item .carousel-caption h5 {
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
+}
+#carouselCaptionIndex .carousel-inner .carousel-item .carousel-caption h5 span {
+  font-weight: 400;
+}
+#carouselCaptionIndex .carousel-inner .carousel-item .carousel-caption p {
+  font-size: 0.875rem;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  letter-spacing: 0.2rem;
+}
+#carouselCaptionIndex .carousel-inner input {
+  position: absolute !important;
+  top: 65%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -65%);
+          transform: translate(-50%, -65%);
+  outline: none;
+}
+#carouselCaptionIndex .carousel-inner input:hover, #carouselCaptionIndex .carousel-inner input:focus {
+  background-color: #ff4f81 !important;
+  border: transparent !important;
+}
+
+/* Course */
+#education-course .education-course__title {
+  color: #ff4f81;
+  font-size: 2.5rem;
+}
+#education-course .education-course__desc {
+  font-size: 1.0625rem;
+}
+#education-course .own-hr-style {
+  width: 5%;
+  height: 0.0625rem;
+}
+#education-course .own-p-style {
+  width: 80%;
+  padding: 0 50px !important;
+  font-size: 0.9375rem;
+  color: #999;
+  line-height: 2;
+}
+#education-course .courses-list i {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+#education-course .courses-list h2 {
+  color: #ff4f81;
+  font-size: 1.8125rem;
+  text-transform: capitalize;
+}
+#education-course .courses-list h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#education-course .courses-list p {
+  margin: 0 5px;
+}
