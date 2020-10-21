@@ -67,7 +67,6 @@ header .own-style .navbar-own-style .navbar-nav .nav-item:nth-child(5) .dropdown
   background-color: transparent;
 }
 header .own-style .navbar-own-style .navbar-nav .nav-item:nth-child(5) .dropdown-menu .dropdown-item:hover::before {
-  height: 0;
   width: 0;
 }
 
